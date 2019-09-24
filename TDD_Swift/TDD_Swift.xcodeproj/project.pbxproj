@@ -14,6 +14,7 @@
 		C0F4D1BB233A281D0099DC0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F4D1BA233A281D0099DC0D /* Assets.xcassets */; };
 		C0F4D1BE233A281D0099DC0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F4D1BC233A281D0099DC0D /* LaunchScreen.storyboard */; };
 		C0F4D1DC233A34B10099DC0D /* TDD_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F4D1DB233A34B10099DC0D /* TDD_SwiftTests.swift */; };
+		C0F4D1E4233A361D0099DC0D /* CalculateSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F4D1E3233A361D0099DC0D /* CalculateSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		C0F4D1D9233A34B10099DC0D /* TDD_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDD_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F4D1DB233A34B10099DC0D /* TDD_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_SwiftTests.swift; sourceTree = "<group>"; };
 		C0F4D1DD233A34B10099DC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F4D1E3233A361D0099DC0D /* CalculateSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		C0F4D1B0233A281C0099DC0D /* TDD_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				C0F4D1E3233A361D0099DC0D /* CalculateSum.swift */,
 				C0F4D1B1233A281C0099DC0D /* AppDelegate.swift */,
 				C0F4D1B3233A281C0099DC0D /* SceneDelegate.swift */,
 				C0F4D1B5233A281C0099DC0D /* ViewController.swift */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0F4D1E4233A361D0099DC0D /* CalculateSum.swift in Sources */,
 				C0F4D1B6233A281C0099DC0D /* ViewController.swift in Sources */,
 				C0F4D1B2233A281C0099DC0D /* AppDelegate.swift in Sources */,
 				C0F4D1B4233A281C0099DC0D /* SceneDelegate.swift in Sources */,
