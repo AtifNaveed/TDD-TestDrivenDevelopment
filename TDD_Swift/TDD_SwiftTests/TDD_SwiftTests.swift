@@ -25,5 +25,18 @@ class TDD_SwiftTests: XCTestCase {
         XCTAssertEqual(sum, 0, "Sum was incoreect")
     }
 
+    func testAddNumberString() {
+        let sum = calculate.sum(numbers: "1,2,3")
+        XCTAssertEqual(sum, 6, "Sum was incoreect")
+    }
+    
+    func testAddNonNumberString() {
+         let sum = calculate.sum(numbers: "1,2,X")
+         XCTAssertEqual(sum, 3, "Sum was incoreect")
+    }
 
+    func testAddNewLineCharacter() {
+         let sum = calculate.sum(numbers: "1\n2,3")
+         XCTAssertEqual(sum, 6, "Sum was incoreect")
+    }
 }

@@ -10,6 +10,8 @@ import UIKit
 
 class CalculateSum {
     func sum(numbers: String) -> Int {
-        return 0
+        let array = numbers.components(separatedBy: [",", "\n"]).compactMap { Int($0) }
+        let sum  = array.reduce(0) {$0 + $1}
+        return sum
     }
 }
